@@ -1,0 +1,25 @@
+h1
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body
+{
+    text-align: center;
+    background-color: #cff1ef;
+    color: #be79df;
+}
+
+hr
+{
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: maroon;
+    height: 0px;
+    width: 5%;
+}
+
+.name
+{
+    color: #be79df;
+}

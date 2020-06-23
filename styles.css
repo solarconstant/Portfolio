@@ -1,0 +1,228 @@
+body
+{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: azure;
+}
+
+h1
+{
+    font-size: 40px;
+    font-family: 'Parisienne', cursive;
+}
+
+.top-container
+{
+    background-color: #cff1ef;
+    text-align: center;
+}
+
+.top-container-inside
+{
+    position: relative;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    font-size: 18px;
+}
+
+.cloud1
+{
+    position: relative;
+    padding-top: 10px;
+    height: 200px;
+    width: 300px;
+}
+
+.cloud2
+{
+    position: absolute;
+    height: 150px;
+    width: 150px;
+}
+
+.cloud3
+{
+    position: absolute;
+    margin: auto 50px;
+    height: 200px;
+}
+
+.mountain
+{
+    position: relative;
+    height: 360px;
+    width: 700px;
+}
+
+.intro
+{
+    line-height: 2;
+    width: 50%;
+    margin: auto;
+    color: #18b0b0;
+}
+
+.imgself
+{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+}
+
+.Education
+{
+    text-align: left;
+    margin: 50px auto 200px auto;
+}
+
+.pec
+{
+    height: 200px;
+    width: 50%;
+    float: left;
+    margin-right: 50px;
+    border-radius: 10%;
+}
+
+.Residence
+{
+    text-align: left;
+    margin: 50px auto 200px auto;
+}
+
+.solan
+{
+    height: 200px;
+    width: 50%;
+    float: right;
+    margin-right: 50px;
+    border-radius: 10%;
+}
+
+hr
+{
+    border-style: dotted none none;
+    border-width: 5px;
+    border-color: maroon;
+    height: 0px;
+    width: 5%;
+}
+
+.skills
+{
+    color: #18b0b0;
+    padding-top: 50px;
+    padding-bottom: 50px;   
+}
+
+.vector
+{
+    margin: 50px auto;
+    width: 300px;
+    height: 30vh;
+    border-radius: 50%;
+}
+
+.contact
+{
+    padding-top: 50px;
+    color:#18b0b0; 
+}
+
+.btn {
+    margin-top: 20px;
+    background: #AFBFD1;
+    background-image: -webkit-linear-gradient(top, #AFBFD1, #7CDAFF);
+    background-image: -moz-linear-gradient(top, #AFBFD1, #7CDAFF);
+    background-image: -ms-linear-gradient(top, #AFBFD1, #7CDAFF);
+    background-image: -o-linear-gradient(top, #AFBFD1, #7CDAFF);
+    background-image: linear-gradient(to bottom, #AFBFD1, #7CDAFF);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    color: #0059A0;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    padding: 10px;
+    text-shadow: 1px 1px 20px #000000;
+    border: outset #337FED 10px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+ .btn:hover {
+    border: solid #337FED 10px;
+    background: #3DD7F6;
+    background-image: -webkit-linear-gradient(top, #3DD7F6, #1ED0C4);
+    background-image: -moz-linear-gradient(top, #3DD7F6, #1ED0C4);
+    background-image: -ms-linear-gradient(top, #3DD7F6, #1ED0C4);
+    background-image: -o-linear-gradient(top, #3DD7F6, #1ED0C4);
+    background-image: linear-gradient(to bottom, #3DD7F6, #1ED0C4);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    text-decoration: none;
+ }
+
+ .bottom-container
+ {
+     background-color: #fbcffc;
+     padding-top: 50px; 
+     padding-bottom: 20px;
+ }
+
+ a
+ {
+     color: #11999e;
+     margin: 30px;
+     text-decoration: none;
+ }
+
+ a:hover
+ {
+     color: white;
+ }
+
+ @media only screen and (max-width:768px)
+ {
+     .mountain
+     {
+         height: 40%;
+         width: 300px;
+     }
+     .cloud2
+     {
+         display: none;
+     }
+     .cloud3
+     {
+         display: none;
+     }
+     .pec
+     {
+         float: none;
+         justify-content: center;
+         width: auto;
+     }
+     .solan
+     {
+        float: none;
+        justify-content: center;
+        width: auto;
+     }
+     .Education 
+     {
+         text-align: center;
+     }
+     .Residence
+     {
+         text-align: center;
+     }
+     .vector
+     {
+         size: 40%;
+     }
+}
